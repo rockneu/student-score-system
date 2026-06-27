@@ -1,0 +1,23 @@
+schema: spec-driven
+
+# Project context (optional)
+# This is shown to AI when creating artifacts.
+# Add your tech stack, conventions, style guides, domain knowledge, etc.
+context: |
+  本团队严格遵循 TDD（测试驱动开发）原则：
+  1. 先写测试，再写实现代码
+  2. 测试失败（Red）→ 编写最小实现通过测试（Green）→ 重构优化（Refactor）
+  3. 所有功能必须有对应的单元测试覆盖
+  4. 测试即文档，测试用例描述业务行为而非实现细节
+  5. 保持测试的独立性和可重复性
+  6. 运行全部测试通过后才可提交代码
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
